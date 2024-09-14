@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon-font/flaticon%EF%B9%9619959793abe6cfe9ea84881b4b60c080.ttf") format("truetype"),
+url("../fonts/flaticon-font/flaticon%EF%B9%9619959793abe6cfe9ea84881b4b60c080.woff") format("woff"),
+url("../fonts/flaticon-font/flaticon%EF%B9%9619959793abe6cfe9ea84881b4b60c080.woff2") format("woff2"),
+url("../fonts/flaticon-font/flaticon%EF%B9%9619959793abe6cfe9ea84881b4b60c080.eot#iefix") format("embedded-opentype"),
+url("../fonts/flaticon-font/flaticon%EF%B9%9619959793abe6cfe9ea84881b4b60c080.svg#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-briefcase:before {
+    content: "\f101";
+}
+.flaticon-graduation-cap:before {
+    content: "\f102";
+}
