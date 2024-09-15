@@ -1056,6 +1056,7 @@ span#main {
   max-width: 1180px;
   margin: 0 auto;
 }
+
 .modal-content h2 {
   font-size: 36px;
   padding: 50px 0px 20px 0px;
@@ -1122,6 +1123,17 @@ span#main {
 }
 #myLogo{
   width: 300px;
+}
+#mySign{
+  width: 250px;
+  
+}
+@media only screen and (min-width: 1000px) {
+  #myImg {
+
+    max-width: none;
+    width: 1000px;
+  }
 }
 
 /* 17. extra info css
@@ -1217,4 +1229,4 @@ span#main {
 .mean-container .mean-nav {
   background: var(--main-color);
 }
-/* .side-mobile-menu end*/
+
